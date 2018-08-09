@@ -78,4 +78,4 @@ fs.readdir("./cmds/", (err, files) => {
         .setFooter(`© MysternMC - Alle rechten voorbehouden`)
     channel.send({ embed });
 }); 
-bot.login(botSettings.token); 
+bot.login(process.env.BOT_TOKEN); 
